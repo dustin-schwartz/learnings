@@ -36,3 +36,16 @@ routes: [
     }
 ]
 ```
+
+## 
+
+### Disable attribute inheritance
+```js
+export default {
+    inheritAttrs: false
+}
+```
+Then Bind it where you want.
+```html
+<input v-bind="$attrs">
+```
